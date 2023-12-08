@@ -13,14 +13,29 @@ let result = sum / arr.length; // середнє арифметичне
 console.log(result);
 
 let maxNumber = arr[0];
+i = 1; 
 
-do {let i = 1; 
-    i++
+do {
+    if (arr[i] > maxNumber) {
+    maxNumber = arr[i];
+} 
+i++;
 } while 
 (i < arr.length);
-{
-    if (arr[i] > maxNumber) {
-        maxNumber = arr[i];
-    }
-}
+
+
 console.log(maxNumber);//найбільше число 
+
+let minNumber = arr[0];
+i = 1; 
+
+do {
+    if (arr[i] < minNumber) {
+    minNumber = arr[i];
+} 
+i++;
+} while 
+(i < arr.length);
+
+
+console.log(minNumber);//найменше число 
