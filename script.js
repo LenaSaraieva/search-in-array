@@ -17,12 +17,19 @@ console.log(sum); // сума всіх елементів
 let result = sum / arr.length; // середнє арифметичне 
 console.log(result);
 
+let maxNumber = arr[0];
+for (let i = 1;  i < arr.length; i++ ) {
+    if (arr[i] > maxNumber) {
+        maxNumber = arr[i];
+    }
+}
+console.log(maxNumber);//найбільше число 
 
-/*for (let i = 0; i < arr.sort(function(a, b) { return a - b; }); i++) {
-    let minNumber = arr[i];
-    console.log(minNumber);
-}*/
- 
 
-
-//let maxNumber = 
+let minNumber = arr[0];
+for (let i = 1;  i < arr.length; i++ ) {
+    if (arr[i] < minNumber) {
+        minNumber = arr[i];
+    }
+}
+console.log(minNumber);//найменше число 
