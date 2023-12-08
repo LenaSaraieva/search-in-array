@@ -11,3 +11,16 @@ do {
 console.log(sum);
 let result = sum / arr.length; // середнє арифметичне 
 console.log(result);
+
+let maxNumber = arr[0];
+
+do {let i = 1; 
+    i++
+} while 
+(i < arr.length);
+{
+    if (arr[i] > maxNumber) {
+        maxNumber = arr[i];
+    }
+}
+console.log(maxNumber);//найбільше число 
