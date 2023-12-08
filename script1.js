@@ -11,9 +11,9 @@ console.log(sum); // сума всіх елементів
 let result = sum / arr.length; // середнє арифметичне 
 console.log(result);
 
-
+i = 1;
 let maxNumber = arr[0];
-let i = 1;
+
 
 while(i < arr.length) {
    
@@ -24,8 +24,9 @@ while(i < arr.length) {
 }
 console.log(maxNumber);//найбільше число 
 
-
+i = 1;
 let minNumber = arr[0];
+
 
 while(i < arr.length) {
     
