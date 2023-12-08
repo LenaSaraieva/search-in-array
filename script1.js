@@ -10,3 +10,28 @@ console.log(sum); // сума всіх елементів
 
 let result = sum / arr.length; // середнє арифметичне 
 console.log(result);
+
+
+let maxNumber = arr[0];
+let i = 1;
+
+while(i < arr.length) {
+   
+    if (arr[i] > maxNumber) {
+        maxNumber = arr[i];
+    }
+    i++;
+}
+console.log(maxNumber);//найбільше число 
+
+
+let minNumber = arr[0];
+
+while(i < arr.length) {
+    
+    if (arr[i] < minNumber) {
+        minNumber = arr[i];
+    }
+    i++;
+}
+console.log(minNumber);//найменше число 
